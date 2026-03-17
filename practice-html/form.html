@@ -8,13 +8,14 @@
   <body>
     <form action="/action">
       <div>
-        <textarea
-          name="feedback"
-          id="feed"
-          placeholder="give your feedback"
-        ></textarea>
-        <button>Submit</button>
+        <label for="car">select you car</label>
+        <select name="brand" id="car">
+          <option selected>Select you car</option>
+          <option value="bmw">bmw</option>
+          <option value="audi">audi</option>
+        </select>
       </div>
+      <button>submit</button>
     </form>
   </body>
 </html>
